@@ -1,4 +1,4 @@
-* Hans: søg "/*"
+* Hans: s g "/*"
 
 * File bb4datainc.inc for including data for Balmorel, model BB4.
 
@@ -22,7 +22,7 @@
 %ONOFFDATALISTING%
 
 
-* TESTING: (indsætter datainc1 her, plus lidt kode) ----------------------------
+* TESTING: (inds tter datainc1 her, plus lidt kode) ----------------------------
 * Geography
 
 SET CCCRRRAAA          "All geographical entities (CCC + RRR + AAA)" %semislash%
@@ -98,8 +98,8 @@ $if not EXIST '../data/TTT.inc' $INCLUDE '../../base/data/TTT.inc';
 %semislash%;
 
 SET DEUSER             "Electricity demand user groups. Set must include element RESE for holding demand not included in any other user group"  %semislash%
-$if     EXIST '../data/DEUSER.inc' $INCLUDE         '../data/DEUSER.inc';
-$if not EXIST '../data/DEUSER.inc' $INCLUDE '../../base/data/DEUSER.inc';
+*$if     EXIST '../data/DEUSER.inc' $INCLUDE         '../data/DEUSER.inc';
+*$if not EXIST '../data/DEUSER.inc' $INCLUDE '../../base/data/DEUSER.inc';
 %semislash%;
 
 SET DHUSER             "Heat demand user groups. Set must include element RESH for holding demand not included in any other user group"  %semislash%
