@@ -1435,7 +1435,7 @@ QOBJ ..
 
    VOBJ =E=
 
-SUM(Y$IY411(Y),
+- SUM(Y$IY411(Y),
 * Objective equation of years and with weighting of years that are in Y but not in YYY
 IOF1_ * IDISCOUNTFACTOR(Y) * IWEIGHTY(Y) * (
 
