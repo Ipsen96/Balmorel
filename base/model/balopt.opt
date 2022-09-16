@@ -161,7 +161,7 @@ $setglobal SEASONALCOP
 *------------START OF: OFFSHORE GRIDS--------------------------
 * overall control variable OFFSHOREGRID must be 'yes' if any of the other OFFSHOREGRID controls are:
 * Allow to build a complicated offshore grid with hubs in the sea.
-$setglobal OFFSHOREGRID
+$setglobal OFFSHOREGRID yes
 *!option yes
 
 *Adds Economies of Scale in generation elements that are part of offshore grids. It requires to use the MIP solver, so remember to activate it.
@@ -316,13 +316,13 @@ $setglobal NOHEATMARKET
 * however, it has not been checked. Please take contact if problems.
 
 * Combine two technologies to one to achieve e.g. multifuel characteristics.
-$setglobal COMBTECH
+$setglobal COMBTECH yes
 *!option yes
 
 *-----------------HYDROGEN ADDON---------------------------------------
 * overall control variable HYDROGEN must be 'yes' if any of the other HYDROGEN controls are:
 * Set demands for hydrogen consumption and enable hydrogen technologies (some options require COMBTECH to be activated too).
-$Setglobal HYDROGEN
+$Setglobal HYDROGEN yes
 *!option yes
 
 * Allows investments in hydrogen transport
