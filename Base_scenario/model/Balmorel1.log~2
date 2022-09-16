@@ -1,0 +1,20 @@
+
+--- Job Balmorel.gms Start 09/16/22 13:32:05 40.2.0 6cf3fb9c WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\40\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\matra\OneDrive\Dokumenter\GitHub\Balmorel\base\model\Balmorel.gms
+    PageSize 0
+    ScrDir C:\Users\matra\OneDrive\Dokumenter\GitHub\Balmorel\Base_scenario\model\225a\
+    SysDir C:\GAMS\40\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+*** License has expired 45 days ago
+*** More than 30 days since expiration, sorry...
+*** Status: Terminated due to a licensing error
+***         License file: C:\Users\matra\OneDrive\Dokumenter\GAMS\gamslice.txt
+***         Inspect listing file for more information.
+--- Job Balmorel.gms Stop 09/16/22 13:32:05 elapsed 0:00:00.015
